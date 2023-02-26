@@ -1,6 +1,6 @@
 import NavBar from "./components/NavBar/NavBar";
 import TextButton from "./components/TexButton/TextButton";
-
+import Register from "./components/Register/Register";
 import "./App.css";
 import HeroTextBar from "./components/HeroTextBar.jsx/HeroTextBar";
 
@@ -16,10 +16,10 @@ function App() {
       </div>
       <div className="containermain2">
         <div className="main3">
-
+        <Register/>
         </div>
         <div className="main4">
-
+         
         </div>
 
       </div>
