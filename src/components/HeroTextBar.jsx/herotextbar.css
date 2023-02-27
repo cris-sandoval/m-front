@@ -46,12 +46,12 @@
     border-top: 5px;
 
 }
-@media (max-width: 600px){
+@media (max-width: 765px){
 .container-main2{
     display: none;
 }
 }
-@media (max-width: 768px){
+@media (max-width: 765px){
     .container-hero-text{
         color: aliceblue;
         width: 40%;

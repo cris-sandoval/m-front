@@ -62,7 +62,7 @@ width: 50%;
 } 
 
 
-@media (max-width: 600px){
+@media (max-width: 765px){
   .container-Nav{
     flex-direction: column;
     align-items: center;
@@ -73,4 +73,18 @@ width: 50%;
      display: flex;
     
   }
+  }
+  @media (max-width: 765px){
+    .main4{
+      display: none;
+    } 
+    .containermain2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+       width: 100%;
+       height: 100vh;
+       /* border: 2px solid rgb(58, 224, 69); */
+     }
   }
