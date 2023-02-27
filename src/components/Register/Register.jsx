@@ -1,11 +1,11 @@
 import {useRef} from "react";
 import "./register.css";
+import axios from "axios";
 import Mingalogo from "../../image/minga-logo.png";
 import Profile from "../../image/profile.png";
 import Lock1 from "../../image/lock1.png";
 import Correo from "../../image/@.png";
 import Google from "../../image/Google.png";
-import axios from "axios";
 
 export default function Register() {
   
@@ -16,7 +16,7 @@ export default function Register() {
   let password2 = useRef()
   let check = useRef()
   
-  function handleSubmit(event){
+ async function handleSubmit(event){
     
     event.preventDefault()
     // console.log(name.current);
@@ -34,13 +34,17 @@ export default function Register() {
       [name.current.name]: name.current.value,
       [email.current.name]: email.current.value,
       [password.current.name]: password.current.value,
-      [password2.current.name]: password2.current.value,
     }
     console.log(data)
-    // axios.post(
-    //   url, 
-    //   data
-    // )
+    let url = "http://localhost:8080/users"
+    try{
+      await axios.post(url, data)
+      console.log("enviado corre");
+    } catch(error){
+      console.log(error);
+      console.log("ocurrio un error");
+    }
+    
   }
   
   return (
