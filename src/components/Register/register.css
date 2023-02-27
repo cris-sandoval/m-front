@@ -1,0 +1,323 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 540px;
+    /* border: solid ; */
+  }
+  .minga-log{
+    width: 180px;
+    height: 50px;
+  }
+  .text-register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .minga-log-container{
+    display: flex;
+    justify-content: center;
+  }
+  .welcome{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 25px;
+  }
+  .discover{
+    text-align: center;
+    font-size: 12px;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 9px;
+  }
+  fieldset{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border: solid 1px rgb(140, 137, 142);
+  }
+  legend{
+    margin-left: 15px;
+    font-size: 14px;
+    color: #4338CA;
+  }
+  input{
+    width: 250px;
+    height: 25px;
+    border: none;
+    outline: none;
+    margin-left: 35px;
+    margin-right: 25px;
+  }
+  .notification-check{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: rgb(128, 126, 124);
+    border: rgb(245, 239, 239);
+    font-size: 14px;
+    width:100%;
+    height: 25px;
+  }
+  .check-box{
+    width: 20px;
+    height: 20px;
+  }
+  .sing-up{
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 100%;
+    height: 45px;
+    box-shadow:  5px 5px 4px #ebbb0d;
+    background-color: #4338CA;
+  }
+  .sing-in-google{
+    display: flex;
+    color: rgb(96, 95, 95);
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgb(190, 187, 187);
+    width: 100%;
+    height: 45px;
+  }
+  .link{
+    text-decoration: none;
+  }
+  p{
+    font-size: 12px;
+  }
+  img{
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (max-width: 765px){
+    .register{
+      display: flex;
+      flex-direction: column;
+      width: 348px;
+      height: 540px;
+      /* border: solid ; */
+    }
+    .minga-log{
+      width: 120px;
+      height: 40px;
+    }
+    .text-register{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .minga-log-container{
+      display: flex;
+      justify-content: center;
+    }
+    .welcome{
+      margin-top: 3px;
+      margin-bottom: 5px;
+      font-size: 30px;
+    }
+    .discover{
+      text-align: center;
+      font-size: 10px;
+    }
+    .form{
+      display: flex;
+      flex-direction: column;
+      /* justify-content: center; */
+      align-items: center;
+      gap: 5px;
+    }
+    fieldset{
+      display: flex;
+      width: 90%;
+      height: 35px;
+      border-radius: 10px;
+      /* border: solid 1px rgb(140, 137, 142); */
+    }
+    legend{
+      margin-left: 10px;
+      font-size: 12px;
+      color: #4338CA;
+    }
+    input{
+      width: 200px;
+      height: 20px;
+      border: none;
+      outline: none;
+      margin-left: 30px;
+      margin-right: 20px;
+    }
+    .notification-check{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: rgb(128, 126, 124);
+      border: rgb(245, 239, 239);
+      font-size: 20px;
+      width:100%;
+      height: 25px;
+    }
+    .check-box{
+      width: 12px;
+      height: 20px;
+    }
+    .sing-up{
+      display: flex;
+      color: aliceblue;
+      text-decoration: none;
+      justify-content: center;
+      align-items: center;
+      margin-top: 9px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      width: 90%;
+      height: 35px;
+      box-shadow:  5px 5px 4px #ebbb0d;
+      background-color: #4338CA;
+    }
+    .sing-in-google{
+      display: flex;
+      color: rgb(96, 95, 95);
+      text-decoration: none;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      border: 1px solid rgb(190, 187, 187);
+      width: 90%;
+      height: 35px;
+    }
+    }
+    img{
+      margin-left: 55px;
+      width: 15px;
+      height: 15px;
+    }
+    @media (max-width: 600px){
+      .register{
+        display: flex;
+        flex-direction: column;
+        width: 348px;
+        height: 540px;
+        /* border: solid ; */
+      }
+      .minga-log{
+        width: 110px;
+        height: 30px;
+      }
+      .text-register{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .minga-log-container{
+        display: flex;
+        justify-content: center;
+      }
+      .welcome{
+        margin-top: 3px;
+        margin-bottom: 5px;
+        font-size: 15px;
+      }
+      .discover{
+        text-align: center;
+        font-size: 8px;
+      }
+      .form{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 5px;
+      }
+      fieldset{
+        display: flex;
+        width: 40%;
+        height: 35px;
+        border-radius: 10px;
+        /* border: solid 1px rgb(140, 137, 142); */
+      }
+      legend{
+        margin-left: 10px;
+        font-size: 12px;
+        color: #4338CA;
+      }
+      input{
+        width: 200px;
+        height: 20px;
+        border: none;
+        outline: none;
+        margin-left: 20px;
+        margin-right: 10px;
+      }
+      .notification-check{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        color: rgb(128, 126, 124);
+        border: rgb(245, 239, 239);
+        font-size: 13px;
+        width:100%;
+        height: 25px;
+      }
+      .check-box{
+        width: 15px;
+        height: 20px;
+      }
+      .sing-up{
+        display: flex;
+        color: aliceblue;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        margin-top: 9px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        width: 95%;
+        height: 35px;
+        box-shadow:  5px 5px 4px #ebbb0d;
+        background-color: #4338CA;
+      }
+      .sing-in-google{
+        display: flex;
+        color: rgb(96, 95, 95);
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid rgb(190, 187, 187);
+        width: 95%;
+        height: 35px;
+      }
+      }
+      img{
+        margin-right: 10px;
+        width: 15px;
+        height: 15px;
+      }
+    @media (max-width: 765px){
+      .register{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 458%;
+        height: 540px;
+        /* border: solid ; */
+      }
+    }
