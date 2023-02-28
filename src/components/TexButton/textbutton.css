@@ -1,7 +1,7 @@
 .text-button{
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: 160px;
     gap: 10px;
     align-items: center;
     color: aliceblue;
@@ -11,6 +11,9 @@
 }
 .h1{
     font-size: 30px;
+}
+.parrafo{
+    font-size: 15px;
 }
 .lest-go-container{
     background: linear-gradient(87.46deg, #4338CA 0%, #5E52F3 100%);
@@ -33,7 +36,7 @@
 .text-button{
     display: flex;
     flex-direction: column;
-    margin-top: 160px;
+    margin-top: 320px;
     gap: 10px;
     align-items: center;
     color: aliceblue;
@@ -43,6 +46,9 @@
 }
 .h1{
     font-size: 19px;
+}
+.parrafo{
+    font-size: 12px;
 }
 
 .lest-go-container{

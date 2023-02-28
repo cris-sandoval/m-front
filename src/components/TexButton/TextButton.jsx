@@ -7,8 +7,8 @@ export default function TextButton() {
     <div className="text-button">
             <h1 className="h1">Your favorite comic book store ✨</h1>
 
-            <p className="p">Explore our catalog to live the adventure of </p>
-            <p className="p">your life</p>
+            <p className="parrafo">Explore our catalog to live the adventure of </p>
+            <p className="parrafo">your life</p>
             <div className="lest-go-container">
               <a className="lets-go" href="#">
                 let´s go!
